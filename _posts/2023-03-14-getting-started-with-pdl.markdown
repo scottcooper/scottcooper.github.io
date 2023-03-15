@@ -52,8 +52,8 @@ so some familiarity with "standard" Python tooling will be handy.
 
 If you don't own a supported GPU, hosted notebooks are
 an easy way to get access to one, but for ultimate flexibility,
-[configure an AWS instance](https://course20.fast.ai/start_aws)  
-and run the tooling of your choice. 
+[configure an AWS instance](https://course20.fast.ai/start_aws) and run the 
+tooling of your choice. 
 
 One downside of using notebooks that's worth noting is that code cells can be 
 executed in any order, so you might have issues with repeatability.
@@ -67,12 +67,11 @@ and you'll have to manage dependencies and navigate the complexities of Python
 environment and package management
 (pip? conda? mamba?). You interact with Juptyer via a browser, just like the
 hosted services described above, but generally the server is localhost 
-(port 8888 by default, i.e. http://localhost:8888). As mentioned above,
-you can [use an AWS instance](https://course20.fast.ai/start_aws) to run
-Jupyter if you don't have a supported GPU.
+-- the port is 8888 by default, i.e. http://localhost:8888.
 
 
-So why would you want to Jupyter? There are a few possibile reasons that I can think of:
+So why would you want to install Jupyter, given the additional complexity? 
+There are a few possibile reasons that I can think of:
 
 * You have your own high-powered GPU that you want to take advantage of.
 * You want to install Jupyter extensions such as nbdev for coding in a notebook, 
@@ -82,7 +81,12 @@ lectures, but these don't apply to the hosted services AFAIK.
 or data that can't be uploaded to hosted services.
 * Other reasons I haven't thought of? Please comment below.
 
+Finally, you can [use an AWS instance](https://course20.fast.ai/start_aws) to run
+Jupyter on a cloud GPU if you don't have a supported model.
+
 ## Finish it!
 
-Hopefully that helps you get started with this great free course. Be sure to share your 
-own experiences to help others along the way.
+Hopefully this helps you navigate some of the tradeoffs about which tooling to
+use, so that you can choose an environment that's comfortable and productive
+for you. Be sure to share your 
+own experiences with this great course to help others along the way!
